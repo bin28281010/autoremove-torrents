@@ -11,6 +11,8 @@ configuration of autoremove-torrents
 
 `* */6 * * * autoremove-torrents --conf=/root/.config/autoremove/config.yml --log=/root/.config/autoremove/logs`
 
+--logs参数指定的文件路径一定要是提前存在的。
+
 **手动运行**
 
 `autoremove-torrents --conf=/root/.config/autoremove/config.yml --log=/root/.config/autoremove/logs`
@@ -45,4 +47,4 @@ my_task: # 第一部分：任务名称
 
 # 这里可以添加更多任务
 ```
-配置参数参考: 
+配置参数参考: https://autoremove-torrents.readthedocs.io/zh_CN/latest/inst.html
