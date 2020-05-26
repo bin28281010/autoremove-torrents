@@ -17,6 +17,9 @@ configuration of autoremove-torrents
 
 `autoremove-torrents --conf=/root/.config/autoremove/config.yml --log=/root/.config/autoremove/logs`
 
+**警告**
+为了防止误删种子，我们非常建议您在修改了配置文件之后，运行一次 `autoremove-torrents --view` 以预览运行结果。
+
 **配置示例**
 
 ```
@@ -47,4 +50,4 @@ my_task: # 第一部分：任务名称
 
 # 这里可以添加更多任务
 ```
-配置参数参考: https://autoremove-torrents.readthedocs.io/zh_CN/latest/inst.html
+配置参数参考: https://autoremove-torrents.readthedocs.io/zh_CN/latest/config.html
